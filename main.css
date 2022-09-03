@@ -1,0 +1,130 @@
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+}
+.container .wrapper {
+  margin: 0 129px;
+}
+.container .sideBar {
+  background: #191718;
+  width: 150px;
+  min-height: 935px;
+}
+.container .sideBar-content-box {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.container .sideBar-content-item {
+  width: 100%;
+  height: 44px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #aaaaaa;
+}
+.container .sideBar-content-item:hover {
+  background-color: #5c5c5c;
+  color: #fff;
+}
+.container .sideBar .active {
+  color: #fff;
+}
+.container .sideBar-content-text {
+  padding: 14px 16px;
+}
+.container .content {
+  max-width: 1768px;
+  min-height: 935px;
+  position: relative;
+}
+.container .content-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.container .content-heading {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+}
+.container .content-heading-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 38px;
+  line-height: 21px;
+}
+.container .content-heading-desc {
+  margin: 18px 269px 38px;
+  display: flex;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.85rem;
+  font-weight: 400;
+}
+.container .content-item {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container .content-item-box {
+  height: 252px;
+  max-width: 470px;
+}
+.container .content-item-box-desc {
+  margin-top: 18px;
+}
+.container .content-item-box-title {
+  font-weight: 700;
+  line-height: 2.8rem;
+  font-size: 2.4rem;
+}
+.container .content-item-box:first-child {
+  margin-right: 50px;
+}
+.container .content-item-box:last-child {
+  margin-left: 50px;
+}
+.container .content-item-box .img {
+  float: left;
+}
+.container .content-item-box .description-text {
+  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 1.85rem;
+  color: #000;
+}
+.container .content .footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.container .content .footer-content {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  margin: 30px 0;
+  color: #3e3e3e;
+}
+
+/*# sourceMappingURL=main.css.map */
